@@ -1,0 +1,126 @@
+body {
+    margin: auto;
+    width: 550px;
+}
+
+
+div#abc{
+    margin: auto;
+    width: 550px;
+    display: flex;
+}
+nav {
+    width: 100%;
+}
+
+div{
+    width: 100%;
+}
+aside#left{
+width: 200px;
+}
+
+aside#left img {
+    width: 100%;
+}
+#cat {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
+
+ul{
+    padding: 0%;
+}
+li {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    color: blue;
+}
+
+a#allc{
+    font-size: 15px;
+}
+
+li p {
+    display: inline;
+    font-size: 10px;
+}
+
+article {
+    display: inline-block;
+}
+
+#img1 {
+    width: 250px;
+    display: block;
+}
+
+h3#featured{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
+
+a#feat{
+    font-weight: bold;
+    font-size: 20px;
+}
+div#sla{
+    display: flex;
+}
+section#centre{
+    width: 250px;
+    display: inline-block;
+}
+
+section#right{
+    display: inline-block;
+}
+
+h3#welc {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+h3#fun {
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#rosie{
+    display: flex;
+}
+
+#rosie img {
+    display: inline-block;
+    height: 100px;
+}
+
+#rosie p {
+    display: inline-block;
+}
+
+#cool {
+    background-color: cyan;
+    color: black;
+    text-align: center;
+}
+
+#stats {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}

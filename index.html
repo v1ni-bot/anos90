@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anos 90'</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function gotofuture() {
+            document.querySelector("body").style.width = "100%"
+            document.querySelector("body").style.backgroundColor = "whitesmoke"
+            document.querySelector("body").innerHTML = "<nav><img src='ebaylogo.png'><ul><li>Browse</li><li>Sell</li><li>Services</li><li>Search</li><li>Help</li><li>Community</li></ul></nav>"
+            document.querySelector("nav").style.display = "flex"
+            document.querySelector("ul").style.display = "flex"
+            document.querySelector("img").style.display = "inline-block"
+            document.querySelector("img").style.width = "200px"
+            document.querySelector("li").style.display = "inline-block"
+            document.querySelector("body").innerHTML += "<section><h1>Bem vindo ao eBay! Seu lugar perfeito para fazer compras!</h1></section>"
+            document.querySelector("section").style.width = "80%"
+            document.querySelector("section").style.margin = "auto"
+            document.querySelector("section").style.backgroundColor = "white"
+            document.querySelector("section").style.borderRadius = "13px"
+            document.querySelector("section").style.padding = "20px"
+            document.querySelector("section").innerHTML += "<div id='imgs'><div><img src='ebaycompra.png'</img><h2>Compre</h2></div><div><img src='ebayvenda.png'</img><h2>Venda</h2></div></div>"
+            document.getElementById("imgs").style.display = "flex"
+            document.querySelector("body").innerHTML +="<footer>Desenvolvido por: v1ni-bot</footer>"
+
+            var y = document.getElementsByTagName("li")
+            var i
+            for (i = 0; i < y.length; i++){
+                y[i].style.padding = "10px"
+                y[i].style.backgroundColor = "gray"
+                y[i].style.margin = "10px"
+                y[i].style.borderRadius = "13px"
+            }
+
+            var a = document.getElementById("imgs").getElementsByTagName("div")
+            for (i = 0; i <a.length; i++){
+                a[i].style.display= "inline-block"
+                a[i].style.padding= "20px"
+                a[i].style.margin= "20px"
+                a[i].style.backgroundColor= "gray"
+                a[i].style.borderRadius= "13px"
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div id="abc">
+        <aside id="left">
+            <img src="ebay.jpg" alt="">
+            <h3 id="cat">categorieS</h3>
+            <ul>
+            <li><a href="">Automotive</a><p>(123123)</p></li>
+            <li><a href="">Antiques</a><p>(123123)</p></li>
+            <li><a href="">Books, Movies, Music</a><p>(123123)</p></li>
+            <li><a href="">Coins & Stamps</a><p>(123123)</p></li>
+            <li><a href="">Collectibles</a><p>(123123)</p></li>
+            <li><a href="">Computers</a><p>(123123)</p></li>
+            <li><a href="">Dolls, Figures</a><p>(123123)</p></li>
+            <li><a href="">Jewerly, Gemstones</a><p>(123123)</p></li>
+            <li><a href="">Photo & Electronics</a><p>(123123)</p></li>
+            <li><a href="">Poterry & Glass</a><p>(123123)</p></li>
+            <li><a href="">Sports Memorabilia</a><p>(123123)</p></li>
+            <li><a href="">Toys, Bean Bag Plush</a><p>(123123)</p></li>
+            <li><a href="">Miscellaneous</a><p>(123123)</p></li>
+            <li><a href="" id="allc">all Categories...</a></li>
+            </ul>
+            <hr>
+            <a href="">Shop by photos in the Gallery</a>
+            <h3 id="stats">statS</h3>
+            <p><strong>2,967,077</strong> items for sale in <strong>2,076</strong> categories now!</p>
+            <p>Over <strong>1.5 billion</strong> page views per month!x</p>
+        </aside>
+            <div id="main">
+                <nav>
+                    <button>Browse</button>
+                    <button>Sell</button>
+                    <button>Services</button>
+                    <button>Search</button>
+                    <button>Help</button>
+                    <button>Community</button>
+                </nav>
+                <div id="sla">
+                    <section id="centre">
+                        <p>your personal trading community ™ </p>
+                        <input type="text" name="" id="">
+                        <button>Search</button>
+                        <img id="img1" src="ebay1.png" alt="">
+                        <h3 id="featured">featurEd</h3>
+                        <ul>
+                            <li><a href="">Canon Bjc 2000 4000 5000 Series Color 5.95</a></li>
+                            <li><a href="">Mel Torme's 1963 Rolls Royce Silver Cloud III</a></li>
+                            <li><a href="">WebTV/Dish Network Combo~DishPlayer~LOW~LOW $</a></li>
+                            <li><a href="">M Jordan Basketball*From The Restaurant*Pic</a></li>
+                            <li><a href="">Cobra 360' Vg-2 Radar With Digital Readout!</a></li>
+                            <li><a href="">Canon 2000/4000/5000 Series Color Cartridge</a></li>
+                            <li><a href="" id="feat"><img src="img.png" alt="">see all featured....</a></li>
+                        </ul>
+                        <img id="img1" src="ebay2.png" alt="">
+                    </section>
+                    <section id="right">
+                        <h3 id="welc">welcomE new uSers</h3>
+                        <ul>
+                            <li><a href="">What is eBay?</a></li>
+                            <li><a href="">How do I bid?</a></li>
+                            <li><a href="">How do I sell?</a></li>
+                            <li><a href="">Register, it's free!</a></li>
+                        </ul>
+                        <h3 id="fun">fun sTuff</h3>
+                        <a href="">cool happenings...</a>
+                        <hr>
+                        <div id="rosie">
+                            <img src="img2.png" alt="">
+                            <p>Welcome back Rosie! Bid on items to benefit the <a href="">For All Kids Foundation.</a></p>
+                        </div>
+                        <h3 id="cool">cool feaTures</h3>
+                        <div id="rosie">
+                            <img src="img3.png" alt="">
+                            <p>Scare up everything you can conjure up for a bewitching on <a href="">Halloween-O-rama!</a></p>
+                        </div>
+                        <hr>
+                        <div id="rosie">
+                            <img src="img4.png" alt="">
+                            <p>Save Time! Now you can search the <a href="">Gallery!</a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    </div>
+        <footer><a href="">Announcements</a>/<a href="">Register</a>/<a href="">eBay Store</a>/<a href="">SafeHarbor</a>/<a href="">Feedback Forum</a>/<a href="">About eBay</a>/<a href="">Jobs</a>/
+            <a href="">Go Local!</a>/<a href="">Go Global!</a>/<a href="">Canada</a>/<a href="">UK</a>/<a href="">Germany</a>
+        </footer>
+        <button style="width: 100%; background-color: blue; color: white; padding: 20px;" onclick="gotofuture()"> IR PARA O FUTURO</button>
+</body>
+</html>
